@@ -14,6 +14,7 @@ cat > build/package.json <<!EOF
   "name": "@cocos3/mobx4",
   "version": "$(node -p 'require("./package.json").version')",
   "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/oyb81076/mobx-cocos.git" },
   "type": "module",
   "keywords": ["cocos creator 3", "mobx"],
   "exports": "./index.js",
