@@ -1,0 +1,12 @@
+{
+  "name": "@cocos/mobx4",
+  "version": "4.0.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "sh build.sh"
+  },
+  "dependencies": {
+    "mobx": "4.15.7"
+  }
+}
