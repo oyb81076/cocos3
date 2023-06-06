@@ -1,11 +1,11 @@
 {
-  "name": "@cocos/mobx4",
-  "version": "4.0.3",
+  "name": "@cocos3/mobx4",
+  "version": "4.0.4",
   "description": "mobx for Cocos Creator 3.x",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/oyb81076/mobx-cocos.git"
+    "url": "https://github.com/oyb81076/cocos3.git"
   },
   "type": "module",
   "main": "./dist/index.js",
