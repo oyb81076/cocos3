@@ -1,12 +1,30 @@
 {
   "name": "@cocos/mobx4",
-  "version": "4.0.0",
-  "type": "module",
+  "version": "4.0.3",
+  "description": "mobx for Cocos Creator 3.x",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oyb81076/mobx-cocos.git"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
   "scripts": {
     "build": "sh build.sh"
   },
-  "dependencies": {
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "cocos creator 3.x",
+    "mobx4"
+  ],
+  "devDependencies": {
     "mobx": "4.15.7"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
